@@ -4,14 +4,12 @@ import java.util.Scanner;
 
 public class Candyshop {
     // metodos sem static pertencem a objetos !!
-
     static int[] vendas = new int[5];
     static int indice = 0; // controla vetor vendas
 
+    Scanner teclado = new Scanner(System.in);
 
     public static void main(String[] args) {
-
-        Scanner teclado = new Scanner(System.in);
 
         // MENU INICIAL
         int opcaoMenu;
@@ -45,7 +43,6 @@ public class Candyshop {
     // REGISTRO DE VENDAS
     public static void registrarVenda() {
 
-        Scanner teclado = new Scanner(System.in);
         int codigo;
 
         // verifica espaço no vetor
